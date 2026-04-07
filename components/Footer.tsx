@@ -1,4 +1,4 @@
-import { Anchor, Instagram, Facebook, Linkedin, Phone as PhoneIcon, FileText } from "lucide-react";
+import { Anchor, Instagram, Facebook, Phone as PhoneIcon, FileText } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -26,9 +26,6 @@ export default function Footer() {
                 </a>
                 <a href="https://www.facebook.com/p/Complete-Yacht-Detailing-Management-100092533291254/" target="_blank" rel="noopener noreferrer" className="text-sail/70 hover:text-gold transition-colors" aria-label="Facebook">
                   <Facebook className="w-6 h-6" aria-hidden="true" />
-                </a>
-                <a href="#" className="text-sail/70 hover:text-gold transition-colors" aria-label="LinkedIn">
-                  <Linkedin className="w-6 h-6" aria-hidden="true" />
                 </a>
               </div>
             </div>
