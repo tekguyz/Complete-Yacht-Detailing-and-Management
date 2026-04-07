@@ -13,6 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://completeyacht.netlify.app'),
   title: 'Complete Yacht Detailing and Management | Pompano Beach',
   description: 'Veteran-owned marine service with 20+ years of experience. Specializing in high-end yacht detailing, ceramic coatings, gelcoat refinishing, and vessel monitoring in Broward and Palm Beach counties.',
   icons: {
@@ -21,18 +22,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Complete Yacht Detailing and Management',
     description: 'Veteran-owned marine service with 20+ years of experience. Specializing in high-end yacht detailing, ceramic coatings, gelcoat refinishing, and vessel monitoring in Broward and Palm Beach counties.',
-    url: 'https://completeyachtdetailing.com',
+    url: 'https://completeyacht.netlify.app',
     siteName: 'Complete Yacht Detailing and Management',
     locale: 'en_US',
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=80&w=1200&auto=format&fit=crop',
         width: 1200,
         height: 630,
         alt: 'Complete Yacht Detailing and Management',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Complete Yacht Detailing and Management',
+    description: 'Veteran-owned marine service with 20+ years of experience.',
+    images: ['https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=80&w=1200&auto=format&fit=crop'],
   },
 };
 
