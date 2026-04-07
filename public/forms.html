@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify Forms Detection</title>
+</head>
+<body>
+    <!-- This file is for Netlify's build bot to detect the form fields -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="tel" name="phone" />
+        <input type="text" name="vessel" />
+        <input type="text" name="location" />
+        <select name="service">
+            <option value="ceramic">Ceramic Coating</option>
+            <option value="gelcoat">Gelcoat Restoration</option>
+            <option value="management">Yacht Management</option>
+            <option value="upgrades">Upgrades (Sharrow/Whelen)</option>
+            <option value="brokerage">Brokerage</option>
+            <option value="other">Other</option>
+        </select>
+        <input type="file" name="photo" />
+        <textarea name="message"></textarea>
+    </form>
+</body>
+</html>
